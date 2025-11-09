@@ -1,0 +1,30 @@
+{
+  "name": "trikaan-website",
+  "version": "1.0.0",
+  "description": "TriKaan Solutions - Future, Delivered. A modern corporate website.",
+  "main": "index.html",
+  "homepage": "https://trikaan-website.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/trikaan-website.git"
+  },
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "echo 'Static site - no build needed'",
+    "serve": "npx http-server . -p 8000",
+    "vercel-build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["website", "corporate", "static", "html", "css", "javascript", "vercel"],
+  "author": "TriKaan Solutions",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "vercel": "^32.0.0"
+  }
+}
